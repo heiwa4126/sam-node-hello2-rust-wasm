@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "node-hello2"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1j9xk3zskqd3z"
+s3_prefix = "node-hello2"
+region = "ap-northeast-3"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
