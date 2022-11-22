@@ -84,6 +84,12 @@ sam delete --no-prompts
 なぜか `sam build` wasmのpackageが .aws-sam/ にコピーされず、`sam local invoke` で死ぬ。
 
 
+
+## メモ: esbundle
+
+単純にesbudleをつかうと.wasmが消えてしまう。どうすればいいのか。
+
+
 <hr>
 (以下sam initで生成されたそのまま)
 
